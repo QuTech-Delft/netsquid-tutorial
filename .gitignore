@@ -1,0 +1,11 @@
+*.env
+*.pyc
+*.DS_Store
+*.out
+**/*.egg-info/*
+.idea/*
+.python-version
+.vscode/*
+.venv
+.ipynb_checkpoints
+venv
