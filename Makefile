@@ -6,7 +6,7 @@ ifndef NETSQUIDPYPI_PWD
 	endif
 endif
 NETSQUID_PWD   = $(shell ${PYTHON3} -c "import sys, urllib.parse as ul; print(ul.quote_plus('${NETSQUIDPYPI_PWD}'))")
-PIP_FLAGS      = --extra-index-url=https://${NETSQUID_USER}:${NETSQUID_PWD}@pypi.netsquid.org
+PIP_FLAGS      = --extra-index-url=https://spring26:spring26@pypi.netsquid.org
 
 help:
 	@echo "install           Installs the package (editable)."
