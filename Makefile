@@ -22,7 +22,7 @@ endif
 
 
 
-install: _check_variables
+install:
 	@$(PYTHON3) -m pip install -r requirements.txt ${PIP_FLAGS}
 
 .PHONY: install
